@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<style>
+    body{
+        background: #eee;
+        font-family: sans-serif;
+    }
+    .content{
+        width: 80%;
+       
+        background-color: #ccc;
+        margin: 1em auto;
+        padding: 1em;
+        text-align: center;
+        
+    }
+
+    .content article{
+        width: 45%;
+        display:inline-block;
+        border:1px solid #aaa;
+        margin-bottom:0.75em ;
+        margin-top: 1em;
+        padding:0.5em;
+        text-align: justify;
+    }
+    .content article h2{
+        text-align: center;
+    }
+
+    .content :nth-child(odd){
+        margin-left: .5em;
+    }
+
+    .content :nth-child(even){
+        margin-right: .5em;
+    }
+
+    @media (max-width:1000px){
+        .content article{
+            display: block;
+            width: auto;
+            margin-left: 0em !important;
+            margin-right: 0em !important;
+            }
+
+    
+    @media (max-width:600px){
+        .content{
+            width:100%
+        }
+        .content article{
+            display: block;
+            width: auto;
+            margin-left: 0em !important;
+            margin-right: 0em !important;
+        
+            
+            
+            }
+        }}
+
+
+
+
+</style>
+
+</head>
+<body>
+    <main class="content">
+        
+            <header>
+                <h1>Fresh Articles</h1>
+            </header>
+
+            <article>
+                <h2>Title 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, tempore! Quae provident adipisci aut voluptates unde quas obcaecati tenetur tempore, non expedita, quos voluptatibus nam reiciendis quaerat esse commodi distinctio veniam perferendis explicabo. Sint soluta labore quam quod voluptate natus officiis, placeat magni praesentium sapiente, rerum, nihil saepe! In, error?</p>
+            </article>
+
+            <article>
+                <h2>Title 2</h2>
+                    <p>Quo quia eius temporibus itaque perspiciatis distinctio! Corporis nemo debitis aliquid quas nihil natus mollitia atque, vero facere temporibus doloribus eos sit, similique perferendis odit quidem rem, perspiciatis et maiores fugit ipsa. Veritatis aliquid mollitia, tenetur, magni sed hic sint culpa autem delectus debitis voluptates quae! Soluta, perspiciatis fuga. Est.</p>
+            </article>
+
+            <article>
+                <h2>Title 3</h2>
+                    <p>Voluptates nulla provident adipisci omnis incidunt debitis, voluptatum iste amet distinctio corrupti blanditiis recusandae quaerat atque qui. Ipsum perferendis optio, molestiae nobis expedita a eum dicta dolor soluta voluptates vero numquam nostrum nam eligendi? Debitis doloribus suscipit, nulla rem maxime excepturi quasi veniam temporibus quia enim, fugit quaerat sapiente! Hic?</p>
+            </article>
+
+            <article>
+                <h2>Title 4</h2>
+                    <p>Rem sdfsd sdffdfgsdfs sdhshshshshcucucuvitae dicta corporis modi, earum tempore corrupti voluptatem. Odit esse voluptas necessitatibus suscipit illum eaque dignissimos, facilis aliquam sequi, pariatur debitis quo dolores deleniti quas ab. Ad quibusdam corrupti itaque, impedit fuga ut velit vero! Placeat omnis dignissimos eligendi qui, sequi natus, alias aliquam ipsa eveniet, veritatis labore recusandae.</p>
+            </article>
+
+            <footer><a href="#">Read more</a></footer>
+
+
+    </main>
+
+    
+</body>
+</html>
+
+
+ <!-- HW1: 
+ max/min width se mai aplica: 
+ 1. atunci cind unui bloc i se stabileste o dimensiune fixa, 
+    insa atunci cind ecranul este marit, sa se transforme intr-un overflow:scroll
+2. cind dorim ca o imagine sa aiba dimensiunile unui parinte si indiferent de zoom in/out, imaginea sa nu depaseasca dimensiunile parintelui
+3.min-width or min-height-> utilizam atunci cind dorim ca un bloc sa se adapteze in funcite de continut, dar sa nu treaca limita inferioara min-width/height
+4. In cazul tag-urilor sau butoanelor, cream un template cu o dimensiuncare se incadreaza in anumite limite min/max. Atunci cind continutul depaseste 
+    limita superioara, in tag-ul respectiv se va observa un fel de sugestie, urmat de ... datorita overflow:hidden
+5. In cazul modului de afisare flex, indicind min-width:auto, dimensiunea de afisare a continutului din continer, va fi egala cu 
+    dimensiunea afisat datorita regimului flex, urmind ca restul continutului sa poata fi afisat prin utilizarea unui a(read more,etc)
+
+
+    HW2:
+padding<margin, deoarece:  padding "incadreaza mesajul unui text intr-o structura". Pe de alta parte margin, separa/structureaza mai multe idei 
+    sau mesaje intr-o pagina, astfel dind impresia de afisare logica si structurata, care urmareste un curs logic.-->
